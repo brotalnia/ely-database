@@ -1,0 +1,28 @@
+CREATE TABLE `spell_enchant_charges` (
+	`spellId` INT UNSIGNED NOT NULL,
+	`charges` INT UNSIGNED NOT NULL DEFAULT '0',
+	PRIMARY KEY (`spellId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `spell_enchant_data` VALUES (8679, 40);
+INSERT INTO `spell_enchant_data` VALUES (8686, 55);
+INSERT INTO `spell_enchant_data` VALUES (8688, 70);
+INSERT INTO `spell_enchant_data` VALUES (11338, 85);;
+INSERT INTO `spell_enchant_data` VALUES (11339, 100);
+INSERT INTO `spell_enchant_data` VALUES (11340, 115);
+INSERT INTO `spell_enchant_data` VALUES (5761, 50);
+INSERT INTO `spell_enchant_data` VALUES (8693, 75);
+INSERT INTO `spell_enchant_data` VALUES (11399, 100);
+INSERT INTO `spell_enchant_data` VALUES (2823, 60);
+INSERT INTO `spell_enchant_data` VALUES (2824, 75);
+INSERT INTO `spell_enchant_data` VALUES (11355, 90);
+INSERT INTO `spell_enchant_data` VALUES (11356, 105);
+INSERT INTO `spell_enchant_data` VALUES (25351, 120);
+INSERT INTO `spell_enchant_data` VALUES (13219, 60);
+INSERT INTO `spell_enchant_data` VALUES (13225, 75);
+INSERT INTO `spell_enchant_data` VALUES (13226, 90);
+INSERT INTO `spell_enchant_data` VALUES (13227, 105);
+INSERT INTO `spell_enchant_data` VALUES (14792, 15);
+
+-- Duration of Venomhide Poison should be 5 minutes.
+INSERT INTO `spell_effect_mod` (`Id`, `Effect`, `EffectBasePoints`, `Comment`) VALUES (14792, 1, 299, 'Venomhide Poison Enchant Duration');

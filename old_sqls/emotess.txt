@@ -1,0 +1,44 @@
+Shadowglen
+https://github.com/TrinityCore/TrinityCore/issues/20378
+
+Darkshore
+https://github.com/TrinityCore/TrinityCore/issues/20488
+
+Teldrassil
+https://github.com/TrinityCore/TrinityCore/issues/20487
+
+Silverpine Forest & Hillsbrad Foothills (Horde Only)
+https://github.com/TrinityCore/TrinityCore/issues/21559
+
+Ashenvale & Stonetalon Mountains (Alliance)
+https://github.com/TrinityCore/TrinityCore/issues/21720
+
+Western & Eastern Plaguelands
+https://github.com/TrinityCore/TrinityCore/issues/21823
+
+Felwood
+https://github.com/TrinityCore/TrinityCore/issues/21913
+
+Elwynn Forest & Westfall
+https://github.com/TrinityCore/TrinityCore/issues/21989
+
+Un'Goro Crater
+https://github.com/TrinityCore/TrinityCore/issues/22008
+
+Redridge Mountains
+https://github.com/TrinityCore/TrinityCore/issues/22056
+
+Duskwood
+https://github.com/TrinityCore/TrinityCore/issues/22065
+
+Feralas (Alliance)
+https://github.com/TrinityCore/TrinityCore/issues/22102
+
+Desolace (Alliance)
+https://github.com/TrinityCore/TrinityCore/issues/22140
+
+Winterspring
+https://github.com/TrinityCore/TrinityCore/issues/22103
+
+Loch Modan
+https://github.com/TrinityCore/TrinityCore/issues/22150

@@ -1,0 +1,1 @@
+UPDATE `gameobject_template` SET `ScriptName`='' WHERE `ScriptName`='go_altar_of_archaedas' || `ScriptName`='go_altar_of_the_keepers';

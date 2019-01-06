@@ -1,0 +1,14 @@
+CREATE TABLE `areatrigger_template` (
+	`ID` SMALLINT(4) UNSIGNED NOT NULL,
+	`build` SMALLINT(4) UNSIGNED NOT NULL COMMENT 'Game client build for which to load this entry',
+	`map_id` SMALLINT(3) UNSIGNED NOT NULL DEFAULT '0',
+	`x` FLOAT NOT NULL DEFAULT '0',
+	`y` FLOAT NOT NULL DEFAULT '0',
+	`z` FLOAT NOT NULL DEFAULT '0',
+	`radius` FLOAT NOT NULL DEFAULT '0',
+	`box_x` FLOAT NOT NULL DEFAULT '0',
+	`box_y` FLOAT NOT NULL DEFAULT '0',
+	`box_z` FLOAT NOT NULL DEFAULT '0',
+	`box_orientation` FLOAT NOT NULL DEFAULT '0',
+	PRIMARY KEY (`ID`, `build`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
